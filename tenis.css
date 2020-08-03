@@ -1,0 +1,152 @@
+body
+{
+  background-image: url(img/green_cup.png);
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+#container
+{
+    background-color: rgb(131, 163, 141);
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+	margin-right: auto;
+
+    
+}
+#logo
+{
+    font-size: 48px;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+}
+nav
+{
+    
+    font-size: 16px;
+    text-align: center;
+	background-color: rgb(44, 116, 44);
+	
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px solid #445742;
+}
+ol > li:first-child
+{
+	border-left: 1px solid #445742;
+}
+ol > li:hover
+{
+	background-color: #cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
+}
+.rectangle1
+{
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+    background-color: #578b4d;
+}
+.rectangle2
+{
+    padding: 10px;
+    text-align: justify;
+	margin: 20px;
+
+}
+footer
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.read
+{
+	text-decoration: none;	
+	color: rgb(29, 219, 29);
+}
+.read:hover
+{
+	text-decoration: underline;
+	color: rgb(187, 94, 40);
+}
+
+.contact
+{
+	text-align: center;
+	font-size: 18px;
+}
+#contact
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
